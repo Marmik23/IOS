@@ -25,25 +25,39 @@ class ViewController: UIViewController {
 
     
     @IBAction func calculateBMI(_ sender: UIButton) {
-        guard let heightString = heightTextField.text,
-              let height = Double(heightString),height < 250 || height > 0 else{
-            BMILabel.text = "Please Enter Valid Value"
-            classLable.text = "Please Enter Valid Value"
-            return
-        }
         
-        guard let weightString = weightTextField.text,
-              let weight = Double(weightString),weight < 650 || weight > 0 else{
-            BMILabel.text = "Please Enter Valid Value"
-            classLable.text = "Please Enter Valid Value"
-            return
-        }
         var result: Double = 0
         switch unitSegmentControl.selectedSegmentIndex {
         case 0:
+            guard let heightString = heightTextField.text,
+                  let height = Double(heightString),height < 250 || height > 0 else{
+                BMILabel.text = "Please Enter Valid Value"
+                classLable.text = "Please Enter Valid Value"
+                return
+            }
+            
+            guard let weightString = weightTextField.text,
+                  let weight = Double(weightString),weight < 650 || weight > 0 else{
+                BMILabel.text = "Please Enter Valid Value"
+                classLable.text = "Please Enter Valid Value"
+                return
+            }
             let heightInMeters = height / 100
             result = weight / (heightInMeters * heightInMeters)
         case 1:
+            guard let heightString = heightTextField.text,
+                  let height = Double(heightString),height < 98 || height > 0 else{
+                BMILabel.text = "Please Enter Valid Value"
+                classLable.text = "Please Enter Valid Value"
+                return
+            }
+            
+            guard let weightString = weightTextField.text,
+                  let weight = Double(weightString),weight < 1430 || weight > 0 else{
+                BMILabel.text = "Please Enter Valid Value"
+                classLable.text = "Please Enter Valid Value"
+                return
+            }
             let weightInKg = weight * 0.453592
             let heightInMeters = height * 0.0254
             result = weightInKg / (heightInMeters * heightInMeters)
