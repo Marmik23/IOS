@@ -1,0 +1,114 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "8ru-R1-d3n.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"All Students\"; ObjectID = \"8ru-R1-d3n\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "All Students"
+          }
+        }
+      }
+    },
+    "8ru-R1-d3n.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"8ru-R1-d3n\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "oEI-d6-Kms.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter Your Email\"; ObjectID = \"oEI-d6-Kms\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter Your Email"
+          }
+        }
+      }
+    },
+    "PRm-8r-wAa.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Upload / Take Image\"; ObjectID = \"PRm-8r-wAa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Upload / Take Image"
+          }
+        }
+      }
+    },
+    "PRm-8r-wAa.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"PRm-8r-wAa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "pzv-4O-nwv.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Save\"; ObjectID = \"pzv-4O-nwv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Save"
+          }
+        }
+      }
+    },
+    "pzv-4O-nwv.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"pzv-4O-nwv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "qBb-6l-hsq.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"Root View Controller\"; ObjectID = \"qBb-6l-hsq\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Root View Controller"
+          }
+        }
+      }
+    },
+    "wTR-PK-6Ti.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter your Name\"; ObjectID = \"wTR-PK-6Ti\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter your Name"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
